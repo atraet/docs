@@ -2,7 +2,8 @@
 
 Resources:
 - [RxJS API document](http://reactivex.io/rxjs/)
-- [RxJS GitHub ***](https://github.com/Reactive-Extensions/RxJS)
+- [RxJS GitHub Reactive Extensions ***](https://github.com/Reactive-Extensions/RxJS)
+- [RxJS GitHub ReactiveX](https://github.com/ReactiveX/rxjs)
 - [RxMarbles](http://rxmarbles.com/)
 - [Rx git book](http://xgrommx.github.io/rx-book/)
 - [RxVision - Visualizing Reactive Streams](http://jaredforsyth.com/rxvision/)
