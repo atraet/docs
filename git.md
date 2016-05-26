@@ -14,6 +14,10 @@ git add ./
 
 git remote add origin https://github.com/atraet/my-app.git
 
+git checkout -b my-new-branch // create a new branch my-new-branch and switch to it
+
+git checkout master // switch to master branch
+
 ```
 
 ## GitLab workflow
