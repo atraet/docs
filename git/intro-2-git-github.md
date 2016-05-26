@@ -1,0 +1,49 @@
+# Introduction to Git and GitHub
+
+## Git Basics
+
+### Initializing a Repository
+
+```
+git config --local user.name "Zhiping Liu"
+
+git init
+
+git init "my-project"
+
+```
+### The Staging Area
+
+Staging area:
+- intermediate step between untracked and tracked files;
+- or: between un-added and added files that has changed.
+
+### Making Commits
+
+Combine add and commit in one single command:
+```
+git commit -am "add and commit" ???
+
+git commit -a --amend "my comment" ???
+```
+### Ignoring files
+Edit global git configuration
+```
+git config --global --edit
+```
+- how to ignore files and folders
+- can ignore globally and locally
+
+### Viewing the log
+```
+git log --oneline
+git log -2 --online // show last 2 commit in oneline style
+git log -p // patch
+git log --decorate
+
+```
+
+To stage a file
+```
+git checkout -- my-file-name
+```
