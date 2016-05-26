@@ -43,6 +43,32 @@ git log --decorate
 
 ```
 
+## Branching and Tagging
+
+### Tags
+- Add Tags
+```
+git tag <tag-name> //
+
+git tag -a <tag-name> <hash-of-commit> // add tag to a commit earlier
+```
+
+Get content of tag.
+The working directory will be restore to the version of the tag. But the files are not lost (they are still kept in git repository)
+```
+git checkout <tag-name>
+```
+
+Remove tag
+```
+```
+
+Show tag
+```
+show tag <tag-name>
+```
+
+
 To stage a file
 ```
 git checkout -- my-file-name
