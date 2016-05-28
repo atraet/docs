@@ -82,7 +82,7 @@ git branch -a
 
 ```
 
-### Pull and push
+### Fetching and Pulling
 
 Pull from local repository (from master branch)
 
