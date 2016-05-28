@@ -66,6 +66,13 @@ git checkout -b [my-new-branch]
 
 ```
 
+Delete a branch
+
+```
+git branch -d [my-branch]
+
+```
+
 ### Tags
 
 Add Tags
