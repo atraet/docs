@@ -19,13 +19,22 @@ git add . // add all changed file to staging area
 
 git checkout -- my-file-name
 
+<<<<<<< HEAD
 ```
 
 Unstage files
 
 ```
 git reset HEAD // remove all files from staging area
+=======
+>>>>>>> 3a003512c185d0aad57d6a12b993c1bec91d636e
 
 ```
 
 ## Questions
+
+- How to unstage a file
+
+```
+git reset HEAD -- [file/path]
+```

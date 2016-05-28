@@ -154,6 +154,7 @@ git tag -d [tag-name]
 Show tag
 ```
 git show [tag-name]
+
 ```
 
 ## GitHub and Remotes
@@ -220,5 +221,4 @@ When to use rebase
 git rebase [hash-of-commit]
 
 -i // interactive
-
 ```
