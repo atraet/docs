@@ -45,6 +45,8 @@ git log --decorate
 
 ## Branching and Tagging
 
+### Create branch
+
 Create a new branch
 
 ```
@@ -71,6 +73,21 @@ Delete a branch
 ```
 git branch -d [my-branch]
 
+```
+
+Dislay all branches (local and remote)
+
+```
+git branch -a
+
+```
+
+### Pull and push
+
+Pull from local repository (from master branch)
+
+```
+git pull . master
 ```
 
 ### Tags
