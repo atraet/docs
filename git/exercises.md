@@ -1,6 +1,6 @@
 # Exercises
 
-Resolving merge conflicts
+### Resolving merge conflicts
 - create a new branch 'working' from branch 'master'
 - make some changes on 'working' and commit it
 - switch to 'master'
@@ -13,10 +13,22 @@ Resolving merge conflicts
 - delete 'working' branch
 - DONE!
 
-Amending last commit
+### Amending last commit
 - create a new branch 'working' from branch 'master'
 - make some changes on 'working' and commit it
   ```
   git commit --amend -am "this commit will replace the last one"
+  ```
 
+### Stash
+- on 'working' branch, make some changes
+- stash the changes
+  ```
+    git stash
+  ```
+- switch to 'master' branch, make some changes
+- make commit on 'master' branch
+- switch to 'working' branch, unstash to get back the changes made before
+  ```
+  git stash apply stash@{0}
   ```
