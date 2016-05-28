@@ -45,8 +45,31 @@ git log --decorate
 
 ## Branching and Tagging
 
+Create a new branch
+
+```
+git branch [new-branch]
+
+```
+
+Switch to a branch
+
+```
+git checkout [my-branch]
+
+```
+
+Create a new branch and switch to it
+
+```
+git checkout -b [my-new-branch]
+
+```
+
 ### Tags
-- Add Tags
+
+Add Tags
+
 ```
 git tag <tag-name> //
 
@@ -55,6 +78,7 @@ git tag -a <tag-name> <hash-of-commit> // add tag to a commit earlier
 
 Get content of tag.
 The working directory will be restore to the version of the tag. But the files are not lost (they are still kept in git repository)
+
 ```
 git checkout <tag-name>
 ```
