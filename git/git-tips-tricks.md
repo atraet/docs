@@ -13,4 +13,19 @@ git add [my-file]
 git commit -am "my message"
 ```
 
+To stage a file
+```
+git add . // add all changed file to staging area
+
+git checkout -- my-file-name
+
+```
+
+Unstage files
+
+```
+git reset HEAD // remove all files from staging area
+
+```
+
 ## Questions
