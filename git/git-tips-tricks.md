@@ -13,4 +13,9 @@ git add [my-file]
 git commit -am "my message"
 ```
 
+To stage a file
+```
+git checkout -- my-file-name
+```
+
 ## Questions
