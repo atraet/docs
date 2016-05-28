@@ -15,7 +15,17 @@ git commit -am "my message"
 
 To stage a file
 ```
+git add . // add all changed file to staging area
+
 git checkout -- my-file-name
+
+
 ```
 
 ## Questions
+
+- How to unstage a file
+
+```
+git reset HEAD -- [file/path]
+```

@@ -22,9 +22,9 @@ Staging area:
 
 Combine add and commit in one single command:
 ```
-git commit -am "add and commit" ???
+git commit -am "add and commit"
 
-git commit -a --amend "my comment" ???
+git commit -a --amend "my comment"
 ```
 ### Ignoring files
 Edit global git configuration
@@ -170,3 +170,35 @@ git push [repository-name(origin)] [branch-name]
 ## Intermediate Usage
 
 ### Stashing changes
+Stash:
+- a stack that can take any number of stashes
+- stored in reverse chronological order
+
+When to stash
+- has some changes on one branch
+- need to switch to another branch
+- do not want to make commit to current branch, and do not want to lost the changes
+
+```
+git stash
+
+```
+Show stash:
+
+```
+git stash show stash@{0}
+```
+
+compare stashes
+
+```
+git diff stash@{0}...stash@{1}
+```
+
+Remove stash
+
+```
+git stash drop @stash@{0}
+
+git stash clear // remove all the stashes
+```
