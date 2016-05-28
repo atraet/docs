@@ -20,15 +20,15 @@
   git commit --amend -am "this commit will replace the last one"
   ```
 
-### Stash
-- on 'working' branch, make some changes
-- stash the changes
-  ```
-    git stash
-  ```
-- switch to 'master' branch, make some changes
-- make commit on 'master' branch
-- switch to 'working' branch, unstash to get back the changes made before
-  ```
-  git stash apply stash@{0}
-  ```
+### Stashing uncommitted changes and store them back
+  - on 'working' branch, make some changes
+  - stash the changes
+    ```
+      git stash
+    ```
+  - switch to 'master' branch, make some changes
+  - make commit on 'master' branch
+  - switch to 'working' branch, unstash to get back the changes made before
+    ```
+    git stash apply stash@{0}
+    ```
