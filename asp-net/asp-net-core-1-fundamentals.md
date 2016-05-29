@@ -1,6 +1,6 @@
 # ASP.NET Core 1.0 Fundamentals
 
-## 2 Startup and Middleware
+## 2. Startup and Middleware
 
 2 default middlewares
 - IISPlatformHandler (authorization)
@@ -32,7 +32,7 @@ Project -> Properties -> Debug
 - add MVC service
 - add MVC middleware
 
-## Controllers in the MVC Framework
+## 3. Controllers in the MVC Framework
 ### Routing
 2 ways to specify routes
 - conventional routes

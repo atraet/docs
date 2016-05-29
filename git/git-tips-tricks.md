@@ -1,5 +1,9 @@
 # Git Tips and Tricks
 
+```
+git count-objects
+git cat-file -p [my-tag-name/tag-hash] // provide git object information (i.c. tag)
+```
 To put a file to *stating area*:
 ```
 git add [my-file]
@@ -17,24 +21,30 @@ To stage a file
 ```
 git add . // add all changed file to staging area
 
-git checkout -- my-file-name
+git checkout -- [my-file]
 
-<<<<<<< HEAD
 ```
 
 Unstage files
 
 ```
-git reset HEAD // remove all files from staging area
-=======
->>>>>>> 3a003512c185d0aad57d6a12b993c1bec91d636e
+git reset HEAD // remove all files from staging area, and point to latest commit
 
+git reset HEAD -- [file/path]
+
+git reset --hard // revert all changes
+
+```
+
+Go to a commit
+```
+git checkout [hash-of-the-commit]
+```
+
+Display content of compressed file
+
+```
+git cat-file -p [hash-of-an-object]
 ```
 
 ## Questions
-
-- How to unstage a file
-
-```
-git reset HEAD -- [file/path]
-```
