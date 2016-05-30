@@ -18,6 +18,19 @@ Staging area:
 - intermediate step between untracked and tracked files;
 - or: between un-added and added files that has changed.
 
+Staging a file
+
+```
+Git add -- [my-file]
+```
+
+Unstaging a files
+
+```
+git reset --HEAD -- [my-file] // remove file from staging area
+git checkout -- [my-file] // revert the changes
+```
+
 ### Making Commits
 
 Combine add and commit in one single command:
