@@ -169,6 +169,11 @@ Show tag
 git show [tag-name]
 
 ```
+Share a tag (to remote)
+
+```
+git push origin [tag-name]
+```
 
 ## GitHub and Remotes
 
