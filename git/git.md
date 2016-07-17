@@ -18,6 +18,9 @@ git checkout -b my-new-branch // create a new branch my-new-branch and switch to
 
 git checkout master // switch to master branch
 
+git tag -a release201607 "release 201607" // add annotated tag
+git tag -d <tag-to-delete> // remove tag
+
 ```
 
 ## GitLab workflow
