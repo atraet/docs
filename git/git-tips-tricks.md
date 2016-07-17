@@ -5,7 +5,7 @@ git count-objects
 git cat-file -p [my-tag-name/tag-hash] // provide git object information (i.c. tag)
 git ls-files  // show info about files in the index 
 ```
-To put a file to *stating area*:
+To put a file to *staging area*:
 ```
 git add [my-file]
 
