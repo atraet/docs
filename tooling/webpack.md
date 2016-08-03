@@ -61,3 +61,37 @@ go to
 ### Using pre-loaders
 
 ### Creating start scripts
+
+### Production vs. Dev Builds
+Production config
+- Create a production config file, to extend/overwrite the dev config
+- In production config, add a loader to strip all 'console.log',
+- Push the strip-loader config to extend dev config
+
+#### 3 npm servers
+- http-server
+- json-server
+- webpack-dev-server
+
+## Advanced Builds with Webpack
+
+### Organizing Files and Folders
+
+Webpack configuration properties
+- context: directory of source files
+- output.path
+- output.publicPath: alias to the real file
+
+### Working with ES6 modules
+- extension .js --> .es6
+- resolve.extensions: ['', 'js', 'es6']
+
+### Advanced source maps
+```
+webpack -d -p
+-d //debugger
+-p //pretty display
+```
+### Multiple bundles
+
+plugin **webpack.optimize.CommonsChunckPlugin('shared.js')**
