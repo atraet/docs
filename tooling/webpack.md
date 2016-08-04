@@ -43,6 +43,7 @@ npm install webpack-dev-server -g
 ```
 
 - run webpack dev server
+
 ```
 webpack-dev-server --port <port-number>
 
@@ -95,3 +96,35 @@ webpack -d -p
 ### Multiple bundles
 
 plugin **webpack.optimize.CommonsChunckPlugin('shared.js')**
+
+## Adding images and fonts to your build
+
+Both images and fonts use **url-loader**
+
+Images
+
+```js
+{
+    test: /\.(png|jpg)$/,
+    loader: url-loader?limit=10000
+}
+
+```
+Fonts
+```
+{
+    test: /\.(png|jpg|ttf|eof)$/,
+    loader: url-loader?limit=10000
+}
+```
+
+## Webpack tools
+
+### Using the connect middleware
+
+To be done yet
+
+### Creating custom loader
+Create a loader to strip comments out of json
+
+### Using plugins
