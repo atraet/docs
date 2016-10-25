@@ -24,6 +24,30 @@ Calculate em values
 ## Then BEM pattern
 
 
+We need to think in terms of abstraction layers for blocks, elements and modifiers
+
+## Using BEM in our project
+
+example
+- nav
+- nav__item
+- nav__item--current
+
+Only downside of BEM: long class name
+
+## BEM Mixins
+
+```css
+@mixin e($element){
+  &__#{$element}{
+    @content;
+  }
+}
+```
+
+Reuse css definition by using placeholders (in file extends.scss)
+
+
 # 3 SMACSS and SASS
 
 ## What is SMACSS
